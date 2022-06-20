@@ -1,7 +1,18 @@
 // Obtener control sobre los elementos
-let input = document.getElementById('texto');
-let boton;
-let lista;
+
+(function(){
+
+var lista = document.getElementById("lista"),
+    tareaInput = document.getElementById("text"),
+    btnNuevaTarea = document.getElementById("btn-agregar"),
+    Check = document.getElementById("btn-check"),
+   trash = document.getElementById("btn-tresh");
+
+ 
+
+}());
+
+
 
 // Tener la información guardada
 let data = [
@@ -14,6 +25,8 @@ let data = [
 ];
 
 // Crear el evento del boton
+
+
 
 // Guardar en el objeto data, la info del elemento nuevo
 

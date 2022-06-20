@@ -9,62 +9,67 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-   
+
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
-    <script src="https://kit.fontawesome.com/a31d91327b.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a31d91327b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-<div class="contenedor caja mx-2 text-center mt-2 p-3">
-<div class="row">
-  <h1>TODO APP</h1>
-</div>
-<div class="row">
-  <input class="form-control m-auto p-2" type="text" id="text" placeholder="Introduce una tarea" >
-</div>
-
-<div class="row">
-  <button class="btn btn-success mt-3 w-50 m-auto "> Crear</button>
-</div>
-
-<div class="row">
-  <ol class=" list-group-numbered mt-4 w-90 text-start m-auto">
-
-    <li class="list-group-item ">Item tareas
-      <div class="btn btn-danger btn-sm p-2 m-auto float-end">
-        <i class="fa-solid fa-trash "></i>
-
+    <div class="contenedor caja mx-2 text-center mt-2 p-3">
+      <div class="row">
+        <h1>TODO APP</h1>
       </div>
-      <div class="btn btn-info btn-sm p-2 m-auto mx-1 float-end">
-        <i class="fa-solid fa-check " ></i>
-      </div>     
-</li>
-<li class="list-group-item ">Item tareas
-  <div class="btn btn-danger btn-sm p-2 m-auto float-end">
-    <i class="fa-solid fa-trash "></i>
+      <div class="row">
+        <input
+          class="form-control m-auto p-2"
+          type="text"
+          id="text"
+          placeholder="Introduce una tarea"
+        />
+      </div>
 
-  </div>
-  <div class="btn btn-info btn-sm p-2 m-auto mx-1 float-end">
-    <i class="fa-solid fa-check " ></i>
-  </div>
-    
-</li><li class="list-group-item ">Item tareas
-  <div class="btn btn-danger btn-sm p-2 m-auto float-end">
-    <i class="fa-solid fa-trash "></i>
+      <div class="row">
+        <button class="btn btn-success mt-3 w-50 m-auto" id="btn-agregar" value="agregar tarea">
+          Crear
+        </button>
+      </div>
 
-  </div>
-  <div class="btn btn-info btn-sm p-2 m-auto mx-1 float-end">
-    <i class="fa-solid fa-check " ></i>
-  </div>
-    
-</li>
-</ol>
+      <div class="row" >
+        <ol class="list list-group-numbered mt-4 w-90 text-start m-auto" id="lista">
 
+          <li class="list-group-item"> Hacer la comida
+            <div class="btn btn-danger btn-sm p-2 m-auto float-end" id="btn-trash">
+              <i class="fa-solid fa-trash"></i>
+            </div>
+            <div class="btn btn-info btn-sm p-2 m-auto mx-1 float-end" id="btn-check">
+              <i class="fa-solid fa-check"></i>
+            </div>
+          </li>
 
-</div>
+          <li class="list-group-item">tarea
+         <div class="btn btn-danger btn-sm p-2 m-auto float-end" id="btn-trash">
+              <i class="fa-solid fa-trash"></i>
+            </div>
+            <div class="btn btn-info btn-sm p-2 m-auto mx-1 float-end" id="btn-check">
+              <i class="fa-solid fa-check"></i>
+            </div>
+          </li>
 
-</div>
-
+          <li class="list-group-item">Alimentar los gatos
+            <div class="btn btn-danger btn-sm p-2 m-auto float-end" id="btn-trash">
+              <i class="fa-solid fa-trash"></i>
+            </div>
+            <div class="btn btn-info btn-sm p-2 m-auto mx-1 float-end" id="btn-check">
+              <i class="fa-solid fa-check"></i>
+              
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
   </body>
 </html>
