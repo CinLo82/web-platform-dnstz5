@@ -1,0 +1,28 @@
+.caja{
+  width: 70%;
+  height: 350px;
+  background-color: rgb(216, 124, 124);
+}
+
+.form-control{
+width: 90%;
+border-radius: 10px;
+background-color: rgb(223, 180, 217);
+
+}
+
+.btn{
+ border-radius: 10px;
+
+}
+
+.btn-sm{
+  width: 30px;
+  height:30px;
+  border-radius: 5px;
+}
+
+.w-90{
+  height:35px;
+border-radius: 10px;
+}
